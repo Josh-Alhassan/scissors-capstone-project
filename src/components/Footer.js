@@ -1,8 +1,8 @@
-import facebook from "../images/icon-facebook.svg"
-import twitter from "../images/icon-twitter.svg"
-import pinterest from "../images/icon-pinterest.svg"
-import instagram from "../images/icon-instagram.svg"
-import logo from "../images/footer-logo.svg"
+import facebook from "../images/icon-facebook.svg";
+import twitter from "../images/icon-twitter.svg";
+import pinterest from "../images/icon-pinterest.svg";
+import instagram from "../images/icon-instagram.svg";
+import logo from "../images/footer-logo.svg";
 
 export default function Footer() {
   return (
@@ -10,7 +10,8 @@ export default function Footer() {
       <footer className="bg-slate-900 py-10 lg:py-20">
         <div className="max-width grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-5">
           <article>
-            <img src={logo} alt="" />
+            {/* <img src={logo} alt="" /> */}
+            <h1 class="text-3xl font-bold text-white">Scissor</h1>
           </article>
 
           <article>
@@ -96,5 +97,5 @@ export default function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
